@@ -1,18 +1,18 @@
-def add(a , b):
-    c=a + b
+def add(a, b):
+    c = a + b
     return c
 
 def test_add():
     
-    assert add(3 , 4) == 7
+    assert add(3, 4) == 7
     print("Add test pass")
     
 def main():
     
-    a=3
-    b=4
-    c=add(a, b)
-    print("A= " , a , " B= " , b , "C= " , c)
+    a = 3
+    b = 4
+    c = add(a, b)
+    print("A= ", a, " B= ", b, "C= ", c)
 
 if __name__ == "__main__":
     main()
