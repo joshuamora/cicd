@@ -2,6 +2,10 @@ def add(a,b):
     c=a+b
     return c
 
+def test_add(a,b):
+    
+    assert add(3,4) == 7
+    
 def main():
     
     a=3

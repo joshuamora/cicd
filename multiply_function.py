@@ -2,6 +2,10 @@ def multiply(a,b):
     c=a*b
     return c
 
+def test_multiply(a,b):
+    
+    assert multiply(3,4) == 12
+    
 def main():
     
     a=3
