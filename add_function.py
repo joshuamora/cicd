@@ -2,10 +2,12 @@ def add(a, b):
     c = a + b
     return c
 
+
 def test_add():
     
     assert add(3, 4) == 7
     print("Add test pass")
+
     
 def main():
     
@@ -14,6 +16,6 @@ def main():
     c = add(a, b)
     print("A= ", a, " B= ", b, "C= ", c)
 
+
 if __name__ == "__main__":
     main()
-
