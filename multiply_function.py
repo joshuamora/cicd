@@ -2,7 +2,7 @@ def multiply(a,b):
     c=a*b
     return c
 
-def test_multiply(a,b):
+def test_multiply():
     
     assert multiply(3,4) == 12
     

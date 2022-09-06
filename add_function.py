@@ -2,7 +2,7 @@ def add(a,b):
     c=a+b
     return c
 
-def test_add(a,b):
+def test_add():
     
     assert add(3,4) == 7
     
