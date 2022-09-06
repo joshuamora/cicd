@@ -1,16 +1,17 @@
 def multiply(a, b):
+
     c = a * b
     return c
 
 
 def test_multiply():
-    
+
     assert multiply(3, 4) == 12
     print("multiply test pass")
 
     
 def main():
-    
+
     a = 3
     b = 4
     c = multiply(a, b)
@@ -18,4 +19,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
