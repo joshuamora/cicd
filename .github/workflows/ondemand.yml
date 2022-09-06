@@ -29,4 +29,6 @@ jobs:
     - name: Testing functions
       run: |
         echo "Testing ${{ github.event.inputs.name }}"
+        pwd
+        ls
         python test_functions.py
